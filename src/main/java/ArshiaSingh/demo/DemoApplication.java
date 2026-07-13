@@ -1,6 +1,7 @@
 package ArshiaSingh.demo;
 
 import ArshiaSingh.demo.DependencyInjection.OrderService;
+import ArshiaSingh.demo.server.HelloServer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -18,5 +19,8 @@ public class DemoApplication{
 
 		OrderService orderService= context.getBean(OrderService.class);
 		orderService.placeOrder();
+
+		HelloServer helloServer= context.getBean(HelloServer.class);
+		helloServer.hello(); //RUN localhost:8080/hello on BROWSER and it WILL SHOW MESSAGE!!
 	}
 }

@@ -32,7 +32,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-starter-webmvc</artifactId>
 		</dependency>
 
 		<dependency>
@@ -47,6 +47,8 @@
 			<version>7.0.7</version>
 			<scope>compile</scope>
 		</dependency>
+
+
 
 	</dependencies>
 
