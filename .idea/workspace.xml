@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8965a3b8-8a38-4979-9da0-69d3451226a0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SpringBoot-2/src/main/java/ArshiaSingh/demo/StudentServer/Studentserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/main/java/ArshiaSingh/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/main/java/ArshiaSingh/demo/DependencyInjection/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/main/java/ArshiaSingh/demo/DependencyInjection/PaymentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/main/java/ArshiaSingh/demo/Notification/CreditCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/main/java/ArshiaSingh/demo/Notification/DebitCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/main/java/ArshiaSingh/demo/Notification/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/main/java/ArshiaSingh/demo/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/main/java/ArshiaSingh/demo/TestInheritance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/main/java/ArshiaSingh/demo/server/HelloServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/main/java/ArshiaSingh/demo/studentServer/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/main/java/ArshiaSingh/demo/studentServer/StudentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/main/java/ArshiaSingh/demo/studentServer/StudentServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/test/java/ArshiaSingh/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-2/demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArshiaSingh/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArshiaSingh/demo/DependencyInjection/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArshiaSingh/demo/DependencyInjection/PaymentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArshiaSingh/demo/Notification/CreditCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArshiaSingh/demo/Notification/DebitCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArshiaSingh/demo/Notification/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArshiaSingh/demo/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArshiaSingh/demo/TestInheritance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArshiaSingh/demo/server/HelloServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArshiaSingh/demo/studentServer/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArshiaSingh/demo/studentServer/StudentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArshiaSingh/demo/studentServer/StudentServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ArshiaSingh/demo/DemoApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3GU0VfoxM8VtkIGfoSZRKRhtsGF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/singh/OneDrive/Pictures/6th Semester/Cognizant/Spring"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.26222.65" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8965a3b8-8a38-4979-9da0-69d3451226a0" name="Changes" comment="" />
+      <created>1784010867197</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1784010867197</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
