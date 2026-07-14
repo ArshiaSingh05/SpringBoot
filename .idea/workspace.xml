@@ -5,49 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8965a3b8-8a38-4979-9da0-69d3451226a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SpringBoot-2/src/main/java/ArshiaSingh/demo/StudentServer/Studentserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/main/java/ArshiaSingh/demo/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/main/java/ArshiaSingh/demo/DependencyInjection/OrderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/main/java/ArshiaSingh/demo/DependencyInjection/PaymentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/main/java/ArshiaSingh/demo/Notification/CreditCard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/main/java/ArshiaSingh/demo/Notification/DebitCard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/main/java/ArshiaSingh/demo/Notification/Payment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/main/java/ArshiaSingh/demo/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/main/java/ArshiaSingh/demo/TestInheritance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/main/java/ArshiaSingh/demo/server/HelloServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/main/java/ArshiaSingh/demo/studentServer/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/main/java/ArshiaSingh/demo/studentServer/StudentRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/main/java/ArshiaSingh/demo/studentServer/StudentServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-1/SpringBoot-1-main/src/test/java/ArshiaSingh/demo/DemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-2/demo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArshiaSingh/demo/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArshiaSingh/demo/DependencyInjection/OrderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArshiaSingh/demo/DependencyInjection/PaymentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArshiaSingh/demo/Notification/CreditCard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArshiaSingh/demo/Notification/DebitCard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArshiaSingh/demo/Notification/Payment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArshiaSingh/demo/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArshiaSingh/demo/TestInheritance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArshiaSingh/demo/server/HelloServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArshiaSingh/demo/studentServer/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArshiaSingh/demo/studentServer/StudentRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArshiaSingh/demo/studentServer/StudentServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ArshiaSingh/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-2/src/main/java/ArshiaSingh/demo/Portfolio/MyPortfolio.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-2/src/main/java/ArshiaSingh/demo/Portfolio/MyPortfolio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
