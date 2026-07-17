@@ -4,6 +4,8 @@ import ArshiaSingh.demo.StudentServer.entity.Student;
 import ArshiaSingh.demo.StudentServer.repository.StudentRepository;
 import org.springframework.stereotype.Service;
 
+import java.util.Optional;
+
 @Service
 public class StudentService {
     StudentRepository studentRepository;
@@ -28,4 +30,17 @@ public class StudentService {
     public Student getStudentById(int id){
         return studentRepository.findById(id).orElse(null);
     }
+
+    public Student updateStudent(int id, Student student){
+        Optional<Student> optionalStudent = studentRepository.findById(id);
+        if(optionalStudent.isEmpty()){
+            return null;
+        }
+        Student existingStudent = optionalStudent.get();
+        existingStudent.setName(student.getName());
+        existingStudent.setAge(student.getAge());
+        existingStudent.setDepartment(student.getDepartment());
+        return studentRepository.save(existingStudent);
+    }
 }
+
