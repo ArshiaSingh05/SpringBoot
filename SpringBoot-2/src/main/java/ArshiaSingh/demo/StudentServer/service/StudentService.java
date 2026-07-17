@@ -1,7 +1,8 @@
-package ArshiaSingh.demo.StudentServer;
+package ArshiaSingh.demo.StudentServer.service;
 
+import ArshiaSingh.demo.StudentServer.entity.Student;
+import ArshiaSingh.demo.StudentServer.repository.StudentRepository;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestBody;
 
 @Service
 public class StudentService {
@@ -22,5 +23,9 @@ public class StudentService {
 
         studentRepository.save(student);
         return student;
+    }
+
+    public Student getStudentById(int id){
+        return studentRepository.findById(id).orElse(null);
     }
 }
