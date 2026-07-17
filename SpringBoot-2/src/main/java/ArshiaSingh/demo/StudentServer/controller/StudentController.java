@@ -43,4 +43,13 @@ public class StudentController {
         return ResponseEntity.ok(result);
     }
 
+    @DeleteMapping("/delete/{id}")
+    public ResponseEntity<?> deleteStudent(@PathVariable int id){
+        boolean deleted = studentService.deleteStudent(id);
+        if(deleted){
+            return ResponseEntity.ok("Student Deleted Successfully");
+        }
+        return ResponseEntity.status(404).body("Student Not Found");
+    }
+
 }

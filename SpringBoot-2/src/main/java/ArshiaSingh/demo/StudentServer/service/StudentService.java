@@ -42,5 +42,14 @@ public class StudentService {
         existingStudent.setDepartment(student.getDepartment());
         return studentRepository.save(existingStudent);
     }
+
+    public boolean deleteStudent(int id){
+        Optional<Student> optionalStudent = studentRepository.findById(id);
+        if(optionalStudent.isEmpty()){
+            return false;
+        }
+        studentRepository.deleteById(id);
+        return true;
+    }
 }
 
