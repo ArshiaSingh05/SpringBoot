@@ -4,7 +4,9 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 
 import java.time.LocalDateTime;
 
@@ -22,12 +24,22 @@ public class Student {
 
    // @GeneratedValue(strategy = GenerationType.IDENTITY)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @NotBlank()
+   // @NotBlank()
     private int id;
+
+    @NotBlank(message = "Name cannot be empty")
+    @Size(min = 3, max=50,message = "Name must be between 3 and 50 characters")
     private String name;
+
+    @Min(value = 1,message = "Age must be greater than 0")
     private int age;
+
+    @NotBlank(message = "Department cannot be empty")
+    @Size(min = 2,max = 50,message = "Department must be between 2 and 50 characters")
     private String department;
+
     private LocalDateTime createdAt;
+
     private LocalDateTime updatedAt;
 
     public LocalDateTime getcreatedAt(){
