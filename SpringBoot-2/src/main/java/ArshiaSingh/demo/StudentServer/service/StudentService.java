@@ -39,6 +39,7 @@ public class StudentService {
 
       //  return studentRepository.save(student);
             Student student = mapToStudent(createStudentRequestDTO);
+            studentRepository.save(student);
             return mapToResponseDTO(student);
     }
 
