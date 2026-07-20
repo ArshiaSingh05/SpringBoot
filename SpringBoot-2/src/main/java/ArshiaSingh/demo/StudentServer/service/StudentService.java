@@ -4,6 +4,7 @@ import ArshiaSingh.demo.StudentServer.entity.Student;
 import ArshiaSingh.demo.StudentServer.repository.StudentRepository;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
 import java.util.Optional;
 
 @Service
@@ -19,12 +20,20 @@ public class StudentService {
         int age=student.getAge();
         String department=student.getDepartment();
 
-        if(id<0 || name==null || age<0 || department==null){
+       // if(id<0 || name==null || age<0 || department==null){
+      //      return null;
+       // }
+
+        if(id<=0 || name==null || name.isBlank() || age<0 || department==null || department.isBlank()){
             return null;
         }
 
-        studentRepository.save(student);
-        return student;
+      //  studentRepository.save(student);
+      //  return student;
+        student.setCreatedAt(LocalDateTime.now());
+        student.setUpdatedAt(LocalDateTime.now());
+
+        return studentRepository.save(student);
     }
 
     public Student getStudentById(int id){
