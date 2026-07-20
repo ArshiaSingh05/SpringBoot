@@ -1,4 +1,5 @@
-package ArshiaSingh.demo.StudentServer.DTO;
+/* package ArshiaSingh.demo.StudentServer.DTO;
 
 public class RequestStudentDTO {
 }
+*/
