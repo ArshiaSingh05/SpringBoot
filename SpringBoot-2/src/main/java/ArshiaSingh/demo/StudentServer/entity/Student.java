@@ -19,7 +19,7 @@ public class Student {
 
   //  private String department;
 
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+   // @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String name;
     private int age;

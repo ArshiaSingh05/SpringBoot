@@ -24,9 +24,9 @@ public class StudentService {
       //      return null;
        // }
 
-        if(id<=0 || name==null || name.isBlank() || age<0 || department==null || department.isBlank()){
-            return null;
-        }
+    //    if(id<=0 || name==null || name.isBlank() || age<0 || department==null || department.isBlank()){
+     //       return null;
+    //    }
 
       //  studentRepository.save(student);
       //  return student;
