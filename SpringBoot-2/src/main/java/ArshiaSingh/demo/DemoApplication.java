@@ -34,7 +34,8 @@ public class DemoApplication{
 		return new WebMvcConfigurer() {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/**").allowedOrigins("https://127.0.0.1:5500","https://localhost:5500").allowedMethods("*").allowedHeaders("*");
+				//here i removed " .allowedOrigins("127.0.0.1:5500", "http://") and added allowedOrigins("https://localhost:63342") "
+				registry.addMapping("/**").allowedOrigins("https://localhost:").allowedOrigins("https://localhost:63342").allowedMethods("*").allowedHeaders("*");
 			}
 		};
 	}
