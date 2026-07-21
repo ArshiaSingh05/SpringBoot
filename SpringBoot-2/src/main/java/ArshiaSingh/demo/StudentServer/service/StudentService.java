@@ -38,9 +38,20 @@ public class StudentService {
      //   student.setUpdatedAt(LocalDateTime.now());
 
       //  return studentRepository.save(student);
-            Student student = mapToStudent(createStudentRequestDTO);
-            studentRepository.save(student);
-            return mapToResponseDTO(student);
+
+        // email format
+        if (!createStudentRequestDTO.getEmail().matches("^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$")) {
+            throw new RuntimeException("Invalid Email Format");
+        }
+
+        // duplicate
+        if (studentRepository.existsByemail(createStudentRequestDTO.getEmail())) {
+            throw new RuntimeException("Email Already Exists");
+        }
+
+        Student student = mapToStudent(createStudentRequestDTO);
+        studentRepository.save(student);
+        return mapToResponseDTO(student);
     }
 
     public Student getStudentById(int id){
@@ -78,6 +89,7 @@ public class StudentService {
             student.setDepartment(createStudentRequestDTO.getDepartment());
             student.setCreatedAt(LocalDateTime.now());
             student.setUpdatedAt(LocalDateTime.now());
+            student.setEmail(createStudentRequestDTO.getEmail());
 
             return student;
         }
@@ -88,6 +100,7 @@ public class StudentService {
             createStudentResponseDTO.setName(student.getName());
             createStudentResponseDTO.setAge(student.getAge());
             createStudentResponseDTO.setDepartment(student.getDepartment());
+            createStudentResponseDTO.setEmail(student.getEmail());
 
             return createStudentResponseDTO;
 
